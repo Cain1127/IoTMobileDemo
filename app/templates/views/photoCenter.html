@@ -1,0 +1,18 @@
+<ion-view>
+  <ion-header-bar align-title="center" class="bar-positive navigationBar">
+    <button class="ion-ios-arrow-back button-clear" ng-click="turnbackButtonAction()"></button>
+    <h1 class="title">MQTT Demo</h1>
+  </ion-header-bar>
+
+  <ion-content class="photoCenterContent" data-ng-init="init();">
+    <div>&nbsp;</div>
+    <div>
+        <input type="button" id="idbut" value="take a picture" ng-click="takePicture();"/>
+    </div>
+    <div>&nbsp;</div>
+    <div>
+        <img id="iotImg" style="height: 100%;width: 100%;display: block;" src="" />
+    </div>
+
+  </ion-content>
+</ion-view>

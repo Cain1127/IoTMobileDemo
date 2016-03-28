@@ -1,0 +1,37 @@
+/************************************
+ *
+ *  Main Styles to compile. Here only @imports!
+ *
+ ************************************/
+
+@import "_variables";
+@import "_fonts";
+
+/**
+ * LAYOUT
+ */
+
+@import "layout/layout";
+
+
+/**
+ * MENU
+ */
+
+@import "menu/menu";
+
+/**
+ * VIEWS
+ */
+
+@import "views/home";
+@import "views/login";
+@import "views/navigationBar";
+@import "views/registerAccount";
+@import "views/resetPassword";
+@import "views/about";
+@import "views/temperatureCenter";
+@import "views/videoCenter";
+@import "views/guide";
+@import "views/humidity";
+@import "views/photoCenter";

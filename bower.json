@@ -1,0 +1,23 @@
+{
+  "name": "IoTCPaasMobileApp",
+  "author": "shengmeng.yang <shengmeng.yang@accenture.com>",
+  "private": "true",
+  "devDependencies": {},
+  "dependencies": {
+    "ionic": "~1.1.0",
+    "angular": "~1.4.3",
+    "ngCordova": "~0.1.17-alpha",
+    "angular-resource": "~1.4.3",
+    "lodash": "~3.10.0",
+    "angular-translate": "~2.8.1",
+    "angular-local-storage": "~0.2.3",
+    "jquery": "~2.1.4",
+    "moment": "~2.10.6",
+    "highcharts": "~4.2.3",
+    "highcharts-ng": "~0.0.11",
+    "bower-paho-mqtt": ""
+  },
+  "resolutions": {
+    "angular": "1.4.3"
+  }
+}

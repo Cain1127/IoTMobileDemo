@@ -1,0 +1,17 @@
+<ion-view>
+    <ion-header-bar align-title="center" class="bar-positive">
+    <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+        <h1 class="title">{{'SETTINGS.TITLE' | translate}}</h1>
+    </ion-header-bar>
+
+    <ion-content>
+        <div class="list">
+          <ion-radio ng-repeat="settingItem in settingsItems"
+                     ng-value="settingItem.itemValue"
+                     ng-model="currentLanguage.picked"
+                     ng-change="langaugeSettingChange(settingItem)">
+            {{settingItem.itemName}}
+        </div>
+    </ion-content>
+
+</ion-view>

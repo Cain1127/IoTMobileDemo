@@ -1,0 +1,38 @@
+<ion-view>
+  <ion-header-bar align-title="center" class="bar-positive">
+    <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+    <h1 class="title">{{'HOME.TITLE' | translate}}</h1>
+  </ion-header-bar>
+
+  <ion-content>
+    <ion-refresher
+      pulling-text="{{'HOME.HEADERREFRESHTITLE' | translate}}"
+      on-refresh="fetchDeviceListFromServer()">
+    </ion-refresher>
+
+    <div>
+      <img src="{{defaultBannerPicture}}" width="100%" />
+    </div>
+    <div class="list list-inset">
+      <a class="item item-icon-left" ng-click="temperatureDeviceDetailButtonAction()">
+        <i class="icon ion-ios-pulse-strong txt_red"></i>
+        {{'HOME.TEMPERATUREDEVICE' | translate}}
+      </a>
+
+      <a class="item item-icon-left" ng-click="humidityDeviceDetailButtonAction()">
+        <i class="icon ion-waterdrop txt_blue"></i>
+        {{'HOME.HUMIDITYDEVICE' | translate}}
+      </a>
+
+      <a class="item item-icon-left" ui-sref="app.videoCenter">
+        <i class="icon ion-battery-half txt_hui"></i>
+        {{'HOME.VIDEODEVICE' | translate}}
+      </a>
+
+      <a class="item item-icon-left" ui-sref="app.photoCenter">
+        <i class="icon ion-ios-camera txt_green"></i>
+        {{'HOME.PHOTO' | translate}}
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

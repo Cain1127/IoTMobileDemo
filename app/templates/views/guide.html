@@ -1,0 +1,23 @@
+/**
+*
+* ___PROJECTNAME___
+*
+* Created by Ysmeng on 16/3/3.
+* Copyright 2020 ___MyCompanyName___. All rights reserved
+*/
+
+<ion-view>
+  <ion-content>
+    <ion-slide-box class="guideContent" active-slide="myActiveSlide" on-slide-changed="slideHasChanged($index)">
+      <ion-slide>
+        <div><img width="100%" height="100%" src="./images/guide_01.jpg" /></div>
+      </ion-slide>
+      <ion-slide>
+        <div><img width="100%" height="100%" src="./images/guide_02.jpg" /></div>
+      </ion-slide>
+      <ion-slide>
+        <div ng-click="tryTemperatureAppButtonAction()"><img width="100%" height="100%" src="./images/guide_03.jpg" /></div>
+      </ion-slide>
+    </ion-slide-box>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,39 @@
+/**
+*
+* ___PROJECTNAME___
+*
+* Created by Ysmeng on 16/3/1.
+* Copyright 2020 ___MyCompanyName___. All rights reserved
+*/
+
+<ion-view class="loginPage">
+  <img class="backgroundImage" src="./images/login_background@2x.png" />
+
+  <ion-content class="mainContent">
+    <div>
+      <img class="appIcon" src="./images/login_app_icon@2x.png">
+
+      <div class="inputUserNameBox">
+        <i class="ion-ios-person-outline inputIcon"></i>
+        <span class="spanField">|</span>
+        <input class="inputField" ng-model="loginDataModel.username" ng-value="loginDataModel.username" placeholder="{{'LOGIN.USERNAME' | translate}}" />
+      </div>
+
+      <div class="inputPasswordBox">
+        <i class="ion-ios-locked-outline inputIcon"></i>
+        <span class="spanField">|</span>
+        <input class="inputField" ng-model="loginDataModel.password" ng-value="loginDataModel.password" placeholder="{{'LOGIN.PASSWORD' | translate}}" />
+      </div>
+
+      <div class="buttonBox">
+        <input class="buttonTitle" value="{{'LOGIN.LOGINBUTTONTITLE' | translate}}" ng-click="loginButtonAction()" />
+      </div>
+
+      <div>
+        <span class="createAccountButton" ng-click="createAccountButtonAction()">{{'LOGIN.REGISTERACCOUNT' | translate}}</span>
+        <span class="seperationWord">|</span>
+        <span class="resetPasswordButton" ng-click="resetPasswordButtonAction()">{{'LOGIN.RESETPASSWORD' | translate}}</span>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

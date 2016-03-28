@@ -1,0 +1,26 @@
+/**
+*
+* ___PROJECTNAME___
+*
+* Created by Ysmeng on 16/3/2.
+* Copyright 2020 ___MyCompanyName___. All rights reserved
+*/
+
+<ion-view>
+  <ion-header-bar align-title="center" class="bar-positive navigationBar">
+    <button class="ion-ios-arrow-back button-clear" ng-click="turnbackButtonAction()"></button>
+    <h1 class="title">{{'TEMPERATURECENTER.TITLE' | translate}}</h1>
+  </ion-header-bar>
+
+  <ion-content class="temperatureCenterContent">
+    <div>
+      <img class="deviceIcon" src="./images/device_DHT22@2x.png" />
+    </div>
+    <div class="chartsBox">
+      <div id="temperatureContainerAngularJS" style="width: 100%; height: 400px; margin: 0 auto"></div>
+    </div>
+    <div>
+      <span>{{'TEMPERATURECENTER.SYSTEMDATE' | translate}} : {{systemDate * 1000 | date:'MM-dd-yy'}}</span>
+    </div>
+  </ion-content>
+</ion-view>

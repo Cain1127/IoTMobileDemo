@@ -1,0 +1,93 @@
+.pho-drap {
+  width: 100%;
+  height: 70%;
+  //background-color: gray;
+}
+
+.pho-title {
+  margin-top: 15px;
+  height: 40px;
+  display: block;
+  padding-top: 13px;
+  padding-left: 10px;
+  color: #191b22;
+  font-size: 15px;
+  font: bold;
+}
+
+.sliderposition {
+  width: 100%;
+  .slider-pager-page {
+    //图片下面的小圆点的大小调整
+    font-size: xx-small;
+  }
+  .slider-pager {
+    top: 160px;
+    display: none;
+  }
+  .slider {
+    height: 250px;
+
+  }
+
+  .slider-slide > div {
+    width: 100%;
+    height: 100%;
+    //background-color: yellow;
+    img {
+      height: 100%;
+      width: 100%;
+      display: block;
+    }
+  }
+}
+.catchphoto_btn{
+    font-size: 30px;
+    left: 20%;
+    top: 14px;
+    position: relative;
+    text-align: center;
+    border: 2px solid #CCC;
+}
+.sliderposition2 {
+  //width: 100%;
+  .slider-pager-page {
+    //图片下面的小圆点的大小调整
+    font-size: xx-small;
+  }
+  .slider-pager {
+    top: 160px;
+    display: none;
+  }
+  .slider {
+    height: 65px;
+
+  }
+
+  .slider-slide > div {
+    width: 100px;
+    height: 100%;
+    margin: 0 3px;
+    float: left;
+    background-color: yellow;
+    img {
+      height: 65px;
+      width: 100%;
+      display: block;
+
+    }
+  }
+}
+.pho-title2{
+  margin-top: 30px;
+  height: 30px;
+
+}
+.imgsty_photoCenter{
+  height: 65px;
+  width:100px;
+}
+.imgboder{
+  border:2px solid #CCC;
+  display: table-cell;
+}

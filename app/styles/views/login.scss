@@ -1,0 +1,141 @@
+/**
+ *
+ * ___PROJECTNAME___
+ *
+ * Created by Ysmeng on 16/3/1.
+ * Copyright 2020 ___MyCompanyName___. All rights reserved
+ */
+
+.loginPage {
+  .backgroundImage {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .mainContent {
+    text-align: center;
+
+    .appIcon {
+      margin-top: 104px;
+      height: 32px;
+      width: 200px;
+    }
+
+    .inputUserNameBox {
+      text-align: left;
+      border: 1px solid #fff;
+      margin-top: 40px;
+      height: 44px;
+      margin-left: 50px;
+      margin-right: 50px;
+
+      .inputIcon {
+        margin-left: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: 40px;
+        color: #fff;
+        vertical-align: middle;
+      }
+
+      .spanField {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+        color: #fff;
+        vertical-align: middle;
+      }
+
+      .inputField {
+        border: 0;
+        background-color: transparent;
+        font-size: 16px;
+        color: #fff;
+        margin-left: 0px;
+        margin-right: 5px;
+        height: 40px;
+        padding-top: 25px;
+        vertical-align: middle;
+      }
+    }
+
+    .inputPasswordBox {
+      text-align: left;
+      border: 1px solid #fff;
+      margin-top: 10px;
+      height: 44px;
+      margin-left: 50px;
+      margin-right: 50px;
+
+
+      .inputIcon {
+        margin-left: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: 40px;
+        color: #fff;
+        vertical-align: middle;
+      }
+
+      .spanField {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+        color: #fff;
+        vertical-align: middle;
+      }
+
+      .inputField {
+        border: 0;
+        background-color: transparent;
+        font-size: 16px;
+        color: #fff;
+        margin-left: 0px;
+        margin-right: 5px;
+        height: 40px;
+        padding-left: 5px;
+        padding-top: 25px;
+        vertical-align: middle;
+      }
+    }
+
+    .buttonBox {
+      margin-top: 45px;
+      margin-left: 50px;
+      margin-right: 50px;
+      height: 54px;
+      font-size: 27px;
+      color: #fff;
+      background-color: #378cd8;
+      border-radius: 24px;
+
+      .buttonTitle {
+        border: 0px;
+        background-color: transparent;
+        font-size: 22px;
+        color: #fff;
+        margin: 0px;
+        text-align: center;
+        padding: 0.5em;
+      }
+    }
+
+    .createAccountButton {
+      position: absolute;
+      left: 60px;
+      color: #fff;
+    }
+
+    .seperationWord {
+      color: #fff;
+    }
+
+    .resetPasswordButton {
+      position: absolute;
+      right: 60px;
+      color: #fff;
+    }
+  }
+}

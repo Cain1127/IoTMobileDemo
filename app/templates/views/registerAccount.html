@@ -1,0 +1,38 @@
+/**
+*
+* ___PROJECTNAME___
+*
+* Created by Ysmeng on 16/3/2.
+* Copyright 2020 ___MyCompanyName___. All rights reserved
+*/
+
+<ion-view>
+  <ion-header-bar align-title="center" class="bar-positive navigationBar">
+    <button class="ion-ios-arrow-back button-clear" ng-click="turnbackButtonAction()"></button>
+    <h1 class="title">{{'REGISTERACCOUNT.TITLE' | translate}}</h1>
+  </ion-header-bar>
+
+  <ion-content class="registerContent">
+    <div class="inputUserNameBox">
+      <i class="ion-ios-person-outline inputIcon"></i>
+      <span class="spanField">|</span>
+      <input class="inputField" ng-model="registerDataModel.username" ng-value="registerDataModel.username" placeholder="{{'REGISTERACCOUNT.USERNAME' | translate}}" />
+    </div>
+
+    <div class="inputPasswordBox">
+      <i class="ion-ios-locked-outline inputIcon"></i>
+      <span class="spanField">|</span>
+      <input class="inputField" ng-model="registerDataModel.password" ng-value="registerDataModel.password" placeholder="{{'REGISTERACCOUNT.PASSWORD' | translate}}" />
+    </div>
+
+    <div class="inputPasswordBox">
+      <i class="ion-ios-locked-outline inputIcon"></i>
+      <span class="spanField">|</span>
+      <input class="inputField" ng-model="registerDataModel.confirmpassword" ng-value="registerDataModel.confirmpassword" placeholder="{{'REGISTERACCOUNT.CONFIRMPASSWORD' | translate}}" />
+    </div>
+
+    <div class="buttonBox">
+      <input class="buttonTitle" value="{{'REGISTERACCOUNT.REGISTERBUTTONTITLE' | translate}}" ng-click="registerButtonAction()" />
+    </div>
+  </ion-content>
+</ion-view>
